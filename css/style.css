@@ -1,0 +1,756 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+.main {
+  width: 100%;
+}
+.fixed {
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+}
+.header {
+  width: 100%;
+  height: 30px;
+  background: rgb(0, 0, 0);
+}
+.header .head {
+  width: 1320px;
+  height: 100%;
+  /* background: blue; */
+  margin: 0 auto;
+  display: flex;
+}
+.h-left {
+  width: 50%;
+  height: 100%;
+  /* background: white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h-left a {
+  text-decoration: none;
+  display: flex;
+}
+.h-left a:hover h2 {
+  color: rgba(253, 169, 169, 0.477);
+}
+.h-left a i {
+  font-size: 25px;
+  color: #ffffffa5;
+  margin-left: 305px;
+}
+.h-left a h2 {
+  color: #ffffffa5;
+}
+.h-right {
+  width: 50%;
+  height: 100%;
+  /* background: rgb(227, 143, 143); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h-right a {
+  text-decoration: none;
+  display: flex;
+}
+.h-right a:hover h2 {
+  color: rgba(253, 169, 169, 0.477);
+}
+.h-right a i {
+  font-size: 25px;
+  color: #ffffffa5;
+}
+.h-right a h2 {
+  color: #ffffffa5;
+  margin-right: 430px;
+}
+
+/* ....................................................................................nav bar sec  */
+.bar {
+  width: 100%;
+  height: 60px;
+  background: rgb(0, 0, 0);
+}
+.nav-bar {
+  width: 1320px;
+  height: 60px;
+  /* background: rgb(36, 214, 66); */
+  display: flex;
+  margin: 0 auto;
+}
+.logo {
+  width: 30%;
+  height: 100%;
+  /* background: rgb(0, 0, 0); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo a {
+  text-decoration: none;
+  display: flex;
+}
+.logo h2 {
+  font-size: 45px;
+  padding: 10px 7px 10px 25px;
+  text-align: center;
+  color: white;
+  font-family: cursive;
+}
+.logo span {
+  transition: 0.4s;
+}
+.logo a:hover span {
+  color: #ff0000;
+}
+.logo .tech {
+  font-size: 20px;
+  color: rgba(255, 0, 0, 0.493);
+  margin-top: 38px;
+  font-weight: bold;
+  font-family: cursive;
+}
+.nv-br {
+  width: 50%;
+  height: 100%;
+  /* background: rgb(124, 240, 155); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nv-br ul {
+  display: flex;
+}
+.nv-br ul li {
+  list-style-type: none;
+}
+.nv-br ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: cursive;
+  margin-left: 33px;
+  transition: 0.4s;
+}
+.nv-br ul li a:hover {
+  color: red;
+}
+.button {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button a {
+  text-decoration: none;
+  font-size: 27px;
+  background: rgb(255, 0, 0);
+  color: white;
+  padding: 6px 22px;
+  border: 2px solid red;
+  border-radius: 5px 10px 5px 10px;
+  font-family: cursive;
+  transition: 0.5s;
+}
+.button a:hover {
+  color: red;
+  background: transparent;
+  /* border-radius: 5px 20px; */
+}
+/* ................................................................................bg img sec  */
+.bg-img {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.bg-img .container {
+  width: 1320px;
+  height: 100vh;
+  margin: 0 auto;
+}
+.text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container-one {
+  width: 1320px;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+}
+.container-one h1 {
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  font-size: 45px;
+  position: absolute;
+  top: 280px;
+  right: 475px;
+}
+
+.text .container-one a {
+  text-decoration: none;
+  background: red;
+  color: white;
+  padding: 10px 15px;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 20px;
+  border: 2px solid red;
+  border-radius: 5px 20px;
+  position: absolute;
+  top: 415px;
+  right: 1050px;
+  transition: 0.5s;
+}
+.text .container-one a:hover {
+  color: red;
+  background: transparent;
+  border-radius: 5px 20px;
+}
+.bg-img img {
+  width: 100%;
+  height: 100vh;
+}
+/* 2nd ............................................. about sec start  */
+.about {
+  height: 250px;
+  width: 100%;
+  background-color: #ccc5b9;
+}
+.about-continer {
+  width: 1320px;
+  height: 100%;
+  margin: 0 auto;
+}
+.about h1 {
+  color: red;
+  text-align: center;
+  font-family: cursive;
+  font-size: 35px;
+  padding-top: 30px;
+}
+.about p {
+  width: 80%;
+  margin: 0 auto;
+  font-family: cursive;
+  font-size: 20px;
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/*  ...................................................catagory sec  */
+.catagory {
+  width: 100%;
+  height: 400px;
+  background: #e5e5e5;
+}
+.cat-sec {
+  width: 1320px;
+  height: 100%;
+  /* background: yellow; */
+  margin: 0 auto;
+}
+.cat-top {
+  width: 100%;
+  height: 20%;
+  /* background: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cat-top h1 {
+  font-family: cursive;
+  font-size: 35px;
+  color: red;
+}
+.cat-bottom {
+  width: 100%;
+  height: 80%;
+  /* background: rgb(255, 0, 174); */
+}
+.cat-bottom ul li .img img {
+  width: 100%;
+  height: 200px;
+  transition: 0.5s;
+}
+.cat-bottom ul li .img:hover img {
+  transform: scale(1.1);
+}
+.cat-bottom ul {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.cat-bottom ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cat-bottom ul li .an {
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  font-weight: bold;
+}
+
+/* end  */
+
+/* ...............................................collection sec start  */
+
+.card-main {
+  width: 100%;
+  height: 1015px;
+  background: #003155;
+}
+.card-main .head {
+  width: 100%;
+  height: 10%;
+  /* background: rgb(19, 126, 172); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-main .head h1 {
+  font-family: cursive;
+  font-size: 35px;
+  color: red;
+}
+.card-cont {
+  width: 1320px;
+  height: 90%;
+  /* background: green; */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.card {
+  height: 400px;
+  width: 20%;
+  margin-left: 10px;
+
+  /* background: blue; */
+}
+.card-head {
+  width: 100%;
+  height: 250px;
+  background: rgb(189, 157, 157);
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px 20px 0 0;
+}
+
+.over-lay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.536);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  justify-content: space-evenly;
+  opacity: 0;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.card-head:hover .over-lay {
+  opacity: 1;
+}
+.card-head:hover img {
+  transform: scale(1.3);
+}
+.over-lay i {
+  font-size: 30px;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  background: green;
+  border: 2px solid green;
+  margin-right: 10px;
+  transition: 0.7s;
+}
+.over-lay i:hover {
+  border: 2px solid green;
+  color: rgb(255, 255, 0);
+  background: transparent;
+}
+.card .card-head img {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+/* .card .card-head img:hover {
+  transform: scale(1.3);
+} */
+.card-bottom {
+  width: 100%;
+  height: 150px;
+  background: #000;
+  border-radius: 0 0 20px 20px;
+}
+.card-bottom h2 {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  margin-bottom: 10px;
+  padding-top: 7px;
+}
+.card-bottom p {
+  text-align: center;
+  color: rgb(185, 172, 172);
+  padding: 0 12px;
+}
+
+/* .........................................................recenty sold sec  start  */
+.card-main2 {
+  width: 100%;
+  height: 1015px;
+  background: #1b263b;
+}
+.card-main2 .head {
+  width: 100%;
+  height: 10%;
+  /* background: rgb(19, 126, 172); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-main2 .head h1 {
+  font-family: cursive;
+  font-size: 35px;
+  color: red;
+}
+.card-cont {
+  width: 1320px;
+  height: 90%;
+  /* background: green; */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.card {
+  height: 420px;
+  width: 20%;
+  margin-left: 10px;
+
+  /* background: blue; */
+}
+.card-head {
+  width: 100%;
+  height: 250px;
+  background: rgb(189, 157, 157);
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px 20px 0 0;
+}
+
+.over-lay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.536);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  justify-content: space-evenly;
+  opacity: 0;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.card-head:hover .over-lay {
+  opacity: 1;
+}
+.card-head:hover img {
+  transform: scale(1.3);
+}
+.over-lay i {
+  font-size: 30px;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  background: green;
+  border: 2px solid green;
+  margin-right: 10px;
+  transition: 0.7s;
+}
+.over-lay i:hover {
+  border: 2px solid green;
+  color: rgb(255, 255, 0);
+  background: transparent;
+}
+.card .card-head img {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+/* .card .card-head img:hover {
+  transform: scale(1.3);
+} */
+.card-bottom {
+  width: 100%;
+  height: 170px;
+  background: #000;
+  border-radius: 0 0 20px 20px;
+}
+.card-bottom h2 {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  margin-bottom: 10px;
+  padding-top: 7px;
+}
+.card-bottom p {
+  text-align: center;
+  color: rgb(185, 172, 172);
+  padding: 0 12px;
+}
+
+/* ....................................................contact sec start  */
+.contat-sec {
+  width: 100%;
+  height: 600px;
+  background: rgb(70, 15, 37);
+}
+.contact-continer {
+  width: 1320px;
+  height: 100%;
+  /* background: rgb(90, 92, 74); */
+  margin: 0 auto;
+  display: flex;
+}
+.part1 {
+  height: 100%;
+  width: 33%;
+  /* background: rgb(48, 149, 212); */
+}
+.p1-one {
+  height: 20%;
+  width: 100%;
+  /* background: rgb(111, 66, 66); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p1-one h2 {
+  font-family: cursive;
+  font-size: 35px;
+  color: white;
+}
+.p1-two {
+  height: 80%;
+  width: 100%;
+  /* background: rgb(48, 155, 77); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .p1-two label {
+  margin: 10px 5px;
+} */
+.p1-two label span {
+  font-size: 25px;
+  color: white;
+}
+/* label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+} */
+.name {
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 10px 0 10px 20px;
+  width: 245px;
+  padding: 10px;
+  border: none;
+}
+.email {
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 10px 0 10px 66px;
+  width: 245px;
+  padding: 10px;
+  border: none;
+}
+.mobile {
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 10px 0 10px 55px;
+  width: 245px;
+  padding: 10px;
+  border: none;
+}
+.area {
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  border: none;
+}
+
+.btn {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.btn:hover {
+  cursor: pointer;
+  background: rgb(167, 0, 0);
+}
+.clean {
+  margin-left: 30px;
+}
+.part2 {
+  height: 100%;
+  width: 34%;
+  /* background: rgb(198, 141, 141); */
+}
+.part2 span {
+  color: green;
+}
+.p2-one {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p2-one h2 {
+  font-family: cursive;
+  font-size: 35px;
+  color: white;
+}
+.p2-two {
+  height: 26.66%;
+  width: 100%;
+  /* background: red; */
+  text-align: center;
+  color: white;
+}
+.p2-three {
+  height: 26.66%;
+  width: 100%;
+  /* background: green; */
+  text-align: center;
+  color: white;
+}
+.p2-fore {
+  height: 26.66%;
+  width: 100%;
+  /* background: blue; */
+  text-align: center;
+  color: white;
+}
+.part3 {
+  height: 100%;
+  width: 33%;
+  /* background: rgb(21, 176, 60); */
+}
+.p3-one {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p3-one h2 {
+  font-family: cursive;
+  font-size: 35px;
+  color: white;
+}
+
+.p3-two {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+iframe {
+  height: 90%;
+  width: 80%;
+  border-radius: 20px;
+}
+/* ...........................................footer sec start  */
+.footer {
+  width: 100%;
+  height: 70px;
+  background: rgb(10, 10, 10);
+  padding: 0 10px;
+}
+.fot-sec {
+  width: 1320px;
+  height: 100%;
+  /* background: green; */
+  margin: 0 auto;
+  display: flex;
+  padding: 0 70px;
+}
+.fot1 {
+  height: 100%;
+  width: 50%;
+  /* background: yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fot1 h2 {
+  color: white;
+  font-size: 35px;
+}
+.fot1 span {
+  color: red;
+}
+.fot2 {
+  height: 100%;
+  width: 50%;
+  /* background: rgb(78, 55, 210); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fot2 i {
+  font-size: 30px;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid red;
+  border-radius: 50px;
+  background: red;
+  margin-left: 20px;
+}
+.fot2 i:hover {
+  color: red;
+  background: rgb(255, 251, 251);
+  border: 2px solid rgb(254, 254, 255);
+}
